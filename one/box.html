@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box</title>
+	<style>
+	*{
+		margin: 0;
+	}
+	.bigbox{
+		background-color: blue;
+		/*height: 100px;*/
+	}
+	.itembox{
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		float: left;
+	}
+	</style>
+</head>
+<body>
+	<div class="bigbox">
+		<div class="itembox"></div>
+		<div class="itembox" style="background-color: green;"></div>
+		<!-- <div class="itembox" style="background-color: grey;"></div> -->
+		<!-- <div class="itembox" style="background-color: black;"></div> -->
+	</div>
+	<div class="clear">
+	</div>
+	<div class="bigbox">
+		<!-- <div class="itembox"></div> -->
+		<!-- <div class="itembox" style="background-color: green;"></div> -->
+		<div class="itembox" style="background-color: grey;"></div>
+		<div class="itembox" style="background-color: black;"></div>
+	</div>
+</body>
+</html>
